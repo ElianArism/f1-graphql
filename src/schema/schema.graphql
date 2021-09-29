@@ -8,7 +8,7 @@ type Query {
   driverById(id: String!): Driver
   getStandingsByYear(year: String!): [StandingsList!]!
   circuits(page: Int, elementsperPage: Int): [Circuit!]!
-  circuitById(id: String!) Circuit
+  circuitById(id: String!): Circuit
 }
 
 type Mutation {
